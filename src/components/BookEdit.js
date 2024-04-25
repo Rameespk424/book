@@ -16,11 +16,7 @@ const handleSubmit = (event) =>{
 }
 
 
-
-
-
-
-    return <form  onClick={handleSubmit} className="book-edit">
+    return <form  onSubmit={handleSubmit} className="book-edit">
         <label>Title</label>
         <input className="input" value={title}
          onChange={handleChange} />
